@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.App {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+select {
+  margin-bottom: 20px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f2f2f2;
+}
+
+option {
+  font-size: 16px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #c3f3c5;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b4ddb5;
+}
+
+button:active {
+  background-color: #b7eab8;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button:focus {
+  outline: none;
+}

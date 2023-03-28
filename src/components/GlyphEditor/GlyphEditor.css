@@ -1,0 +1,37 @@
+select {
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+  }
+  
+  option {
+    font-size: 16px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #c2eec4;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c3eac5;
+  }
+  
+  button:active {
+    background-color: #c7eac9;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  button:focus {
+    outline: none;
+  }
